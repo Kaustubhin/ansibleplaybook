@@ -3,5 +3,5 @@
 
   tasks: 
   - name: run powershell
-    win_shell: write-host "Hello World"
+    win_shell: get-services
 
