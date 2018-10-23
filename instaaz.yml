@@ -2,6 +2,6 @@
 - hosts: all
 
   tasks: 
-  - name: install azure module
-    shell: pip install --user ansible[azure]
+  - name: run powershell
+    win_shell: write-host "Hello World"
 
