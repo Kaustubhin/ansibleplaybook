@@ -2,5 +2,5 @@
 - hosts: all
 
   tasks: 
-  -  name: PowerShell Directory Test and File Create
-     win_commnad: powershell Write-host "Hello World"
+  - name: PowerShell Directory Test and File Create
+    win_commnad: powershell Write-host "Hello World"
