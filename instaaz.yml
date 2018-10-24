@@ -3,4 +3,4 @@
 
   tasks: 
   -  name: PowerShell Directory Test and File Create
-     win_shell: Write-host "Hello World"
+     win_commnad: powershell Write-host "Hello World"
