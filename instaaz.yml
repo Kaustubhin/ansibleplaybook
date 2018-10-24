@@ -2,7 +2,5 @@
 - hosts: all
 
   tasks: 
-  - name: Add a powershell module
-    win_psmodule:
-      name: PowershellModule
-      state: present
+  -  name: PowerShell Directory Test and File Create
+     win_shell: Write-host "Hello World"
