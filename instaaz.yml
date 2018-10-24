@@ -3,4 +3,4 @@
 
   tasks: 
   - name: PowerShell Directory Test and File Create
-    shell: powershell Write-host "Hello World"
+    shell: powershell get-azureadgroup
